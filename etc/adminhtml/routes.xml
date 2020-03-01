@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+
+/**
+ * @author Kashyap Team
+ * @copyright Copyright (c) 2018 Kashyap (softwarekashyap@gmail.com)
+ * @package Kashyap_DeleteOrder
+*/
+
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="deleteorder" frontName="deleteorder">
+            <module name="Kashyap_DeleteOrder"/>
+        </route>
+    </router>
+</config>
