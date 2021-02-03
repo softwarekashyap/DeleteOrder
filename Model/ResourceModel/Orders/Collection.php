@@ -81,7 +81,7 @@ class Collection extends AbstractDb
 
     public function deleteAll()
     {
-        $connection = $this->_resource;
+        $connection = $this->getConnection('write');
         
         //Sales Order Tables
         $tableSalesOrder = $this->getTable('sales_order');

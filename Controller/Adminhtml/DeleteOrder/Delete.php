@@ -43,7 +43,7 @@ class Delete extends Action
         }
 
         $countDeleteOrder = 0;
-        if (count($ids) > 0) {
+        if (!empty($ids)) {
             $collection = $this->ordersCollectionFactory->create();
             if ($ids[0] == '*') {
                 $countDeleteOrder = $collection->deleteAll();
